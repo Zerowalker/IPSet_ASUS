@@ -13,13 +13,6 @@ With Skynet and AsusWRT-Merlin, you can entrust your router's security to a reli
 In conclusion, if you're seeking to augment the security features of your ASUS router running AsusWRT-Merlin, Skynet stands out as the premier solution. Don't compromise on your network's safety any longer – embrace Skynet today and safeguard your digital domain with confidence.
 
 
-
-
-## Donate
-
-You can use this script for free as it will always remain open source. However, if you would like to contribute to future development efforts, you have the option to support us by [Donating With PayPal.](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BPN4LTRZKDTML)
-
-
 ## Requirement
 
 All that's required is a USB drive that's at-least 2GB (so there is room for a SWAP file). After downloading it just works.
@@ -49,7 +42,7 @@ firewall
 In your favorite SSH Client;
 
 ```Shell
-/usr/sbin/curl -s "https://raw.githubusercontent.com/Adamm00/IPSet_ASUS/master/firewall.sh" -o "/jffs/scripts/firewall" && chmod 755 /jffs/scripts/firewall && sh /jffs/scripts/firewall install
+/usr/sbin/curl -s "https://raw.githubusercontent.com/Zerowalker/IPSet_ASUS/master/firewall.sh" -o "/jffs/scripts/firewall" && chmod 755 /jffs/scripts/firewall && sh /jffs/scripts/firewall install
 ```
 
 For firmware versions 384.15+ this can also be installed via AMTM by following the menu prompts;
